@@ -1,13 +1,13 @@
-entrada = input("ingrese numeros separador por coma: ")
+entrada = input("Ingrese números separados por coma: ")
 
 try:
-    numeros not numeros = [float(num) for num in entrada.split(',')]
+    # Convertir la entrada en lista de números
+    numeros = [float(num) for num in entrada.split(',')]
 
     if not numeros:
-        print("no se ingresaron numeros.")
+        print("No se ingresaron números.")
     else:
         mayor = max(numeros)
-        print(f"el mayor numero ingresado es: {mayor}")
-except valueError:
-    print("por favor, ingrese solo numeros separador por coma.")
-
+        print(f"El mayor número ingresado es: {mayor}")
+except ValueError:
+    print("Por favor, ingrese solo números separados por coma.")
