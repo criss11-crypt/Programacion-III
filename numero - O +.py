@@ -1,4 +1,7 @@
-print('')
+print('______________________')
+print('Cristofer Enmanuel Machado Guillen')
+print('codigo USTR168322')
+print('_________________')
 # Crear la función para verificar si un número es positivo, negativo o cero
 def verificar_numero(num):
     if num > 0:
